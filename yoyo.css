@@ -1,0 +1,531 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #feedb7;
+  flex-wrap: wrap;
+}
+.sticy h1 i {
+  background-color: #06193d;
+}
+.sticy {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: #06193d;
+  color: white;
+  position: fixed;
+  z-index: 1000;
+  right: 40px;
+  bottom: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #06193d;
+  font-size: 40px;
+  transition: max-height 0.5s ease;
+}
+.sticy:hover .submenu {
+  max-height: 100px;
+}
+.submenu p {
+  margin: 0;
+}
+.hello {
+  padding-top: 10px;
+}
+
+.logo img {
+  height: auto;
+  width: 120px;
+}
+ul li img {
+  height: 50px;
+  width: 120px;
+  margin-top: -9px;
+  margin-left: 3vh;
+}
+ul {
+  margin-left: 50vh;
+  gap: 40px;
+  list-style: none;
+  display: flex;
+  margin-top: 40px;
+}
+.text ul li a {
+  text-decoration: none;
+  color: rgb(89, 89, 90);
+  font-size: 17px;
+}
+.text ul li a:hover {
+  color: black;
+}
+.text span {
+  color: green;
+}
+.main {
+  background-color: #feedb7;
+  height: 620px;
+  justify-content: center;
+  display: flex;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.img {
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1000px;
+  margin-top: 6vh;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray, -5px -5px 10px lightgray;
+  display: inline-block;
+}
+.yo {
+  margin-left: 32vh;
+  padding-top: 100px;
+  display: inline-block;
+  color: white;
+  font-size: 80px;
+}
+.online {
+  margin-left: 50vh;
+  padding: 5px 10px;
+  display: inline-block;
+  color: grey;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 60px;
+}
+.with {
+  margin-left: 28vh;
+  padding-top: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+.section {
+  padding-top: 80px;
+  background-color: #feedb7;
+  display: flex;
+  gap: 20vh;
+  justify-content: center;
+}
+.section-1 img {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.section-1 h1 {
+  padding-top: 5px;
+  padding-left: 25px;
+}
+.section-1 p {
+  padding-top: 5px;
+  padding-bottom: 90px;
+}
+.about {
+  padding-top: 100px;
+  background-color: #3b61f40f;
+  display: flex;
+  gap: 220px;
+
+  padding-bottom: 90px;
+}
+.left h2 {
+  color: #06193d;
+  font-size: 56px;
+  margin-left: 100px;
+}
+.no {
+  color: #0a2861;
+  padding-top: 50px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+.no-yes {
+  margin-top: 15px;
+  color: #0a2861;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+.yes {
+  color: #0a2861;
+  padding-top: 15px;
+  margin-left: 100px;
+}
+.about h2 button {
+  background-color: #3b61f4;
+  border: 2px solid #3b61f4;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: medium;
+}
+.left h2 button:hover {
+  box-shadow: 0 0 20px 0 rgb(59 97 244 / 74%);
+}
+.right img {
+  transition: top, 1s ease-out 0.2s;
+}
+.right img:hover {
+  margin-top: -40px;
+  box-shadow: 10px 10px 20px 10px rgb(59 97 244 / 74%),
+    -10px -10px 20px 10px rgb(59 97 244 / 74%);
+}
+.choose {
+  margin-top: 100px;
+}
+.us {
+  margin-left: 150px;
+  color: #06193d;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.left-right1 {
+  display: flex;
+  padding-bottom: 80px;
+}
+.left-1 img {
+  padding-top: 50px;
+}
+.one h3 {
+  color: #0a2861;
+  margin-left: 80px;
+  margin-top: -70px;
+}
+.one p {
+  margin-left: 80px;
+}
+.two img {
+  margin-left: 60vh;
+}
+.two h3 {
+  color: #0a2861;
+  margin-left: 70vh;
+  margin-top: -70px;
+}
+.two p {
+  margin-left: 70vh;
+}
+.three h3 {
+  color: #0a2861;
+  margin-left: 80px;
+  margin-top: -70px;
+}
+.three p {
+  margin-left: 80px;
+}
+.four img {
+  margin-left: 60vh;
+}
+.four h3 {
+  color: #0a2861;
+  margin-left: 70vh;
+  margin-top: -70px;
+}
+.four p {
+  margin-left: 70vh;
+}
+.five h3 {
+  color: #0a2861;
+  margin-left: 80px;
+  margin-top: -70px;
+}
+.five p {
+  margin-left: 80px;
+}
+.main-footer {
+  background-color: #0a2861;
+  height: 480px;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  gap: 15vh;
+  justify-content: center;
+}
+.company h1 {
+  margin-top: 10vh;
+  color: rgb(230, 185, 185);
+}
+.company p {
+  margin-top: 10px;
+  color: white;
+}
+.links h1 {
+  margin-top: 10vh;
+  color: rgb(230, 185, 185);
+}
+.links p {
+  margin-top: 2vh;
+  color: white;
+}
+.app h1 {
+  margin-top: 10vh;
+  color: rgb(230, 185, 185);
+}
+.app p img {
+  height: 50px;
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 2vh;
+}
+.social h1 {
+  margin-top: 10vh;
+  color: rgb(230, 185, 185);
+}
+.social pre {
+  font-size: 40px;
+  color: white;
+  margin-left: 20px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  color: #008000;
+  background-color: grey;
+  position: relative;
+  bottom: -80px;
+  width: 80%;
+  margin-left: 140px;
+}
+h4 {
+  margin-top: 94px;
+  color: white;
+}
+.main,
+.nav,
+.section,
+.about,
+.choose,
+.main-footer {
+  width: 100%;
+}
+@media screen and (max-width: 1348px) {
+  .section {
+    width: 100%;
+  }
+  .main-footer {
+    width: 100%;
+  }
+  .logo img {
+    margin-left: 20vh;
+  }
+  ul {
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (max-width: 1188px) {
+  ul{
+    margin-left: 0;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-1{
+    margin-left: 50px;
+  }
+  .one h3 {
+    margin-left: 80px;
+    margin-top: -70px;
+  }
+  .one p {
+    margin-left: 80px;
+  }
+  .two img {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .two h3 {
+    margin-left: 80px;
+    margin-top: -70px;
+  }
+  .two p {
+    margin-left: 80px;
+  }
+  .three img{
+    margin-top: 10px;
+  }
+  .three h3 {
+    margin-left: 80px;
+    margin-top: -70px;
+  }
+  .three p {
+    margin-left: 80px;
+  }
+  .four img {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .four h3 {
+    margin-left: 80px;
+    margin-top: -70px;
+  }
+  .four p {
+    margin-left: 80px;
+  }
+  .five img{
+    margin-top: 10px;
+  }
+  .five h3 {
+    margin-left: 80px;
+    margin-top: -70px;
+  }
+  .five p {
+    margin-left: 80px;
+  }
+  .section{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1044px) {
+  .img{
+    width: 100%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 906px) {
+  .left-right1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img{
+    width: 100%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 956px) {
+  .img{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  margin-top: 6vh;
+  justify-content: center;
+  
+  display: inline-block;
+  }
+}
+@media screen and (max-width: 894px) {
+  .about{
+    display: flex;
+    justify-content: center;
+  }
+  .main-footer {
+    width: auto;
+    height: auto;
+  }
+  .footer{
+    flex-wrap: wrap;
+    
+    display: flex;
+  }
+  
+  ul{
+    margin-left: 100px;
+    flex-wrap: wrap;
+  }
+  .nav{
+    width: auto;
+  }
+  .img{
+    width: 100%;
+    background-size: cover;
+  }
+
+}
+@media screen and (max-width: 765px) {
+  .yo,.online,.with{
+    margin-left: 0vh;
+  }
+}
+  
+@media screen and (max-width: 727px) {
+  .img{
+    
+    width: 100%;
+    background-size: cover;
+  }
+
+}
+@media screen and (max-width: 702px) {
+  .nav{
+    width: 100%;
+  }
+  ul{
+    margin-left: 10px;
+  }
+  .sticy{
+    right: 20px;
+    bottom: 10px;
+  }
+  hr{
+    display: none;
+  }
+}
+@media screen and (max-width: 634px) {
+  .yo{
+    font-size: 60px;
+  }
+  .online{
+    font-size: 50px;
+  }
+  .with{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .left h2{
+    font-size: 40px;
+  }
+  .us{
+    font-size: 50px;
+  }
+  .main-footer{
+    width: auto;
+  }
+  body{
+    width: 100%;
+  }
+  .sticy{
+    margin-left: 100px;
+    font-size: 10px;
+  }
+  .submenu{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .yo{
+    font-size: 40px;
+  }
+  .online{
+    font-size: 30px;
+  }
+  .with{
+    font-size: 15px;
+  }
+  .us{
+    font-size: 40px;
+  }
+}
